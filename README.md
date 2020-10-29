@@ -2,7 +2,7 @@
 ## ![bull](images/bull.ico)
 Python Script that push windows 10 notifications on selected stock price.
 ## Configuration
-The script loads confoguration from ![config.py](config.py) file.
+The script loads confoguration from [config.py](config.py) file.
 ### Config Variables
 * **API_KEY** --> The api key for rapidAPI yahoo finance.
 * **LOG_PATH** --> Log file path.
@@ -19,8 +19,8 @@ ICON_PATH = r"{}\bull.ico".format(os.path.dirname(os.path.realpath(__file__)))
 CHECK_INTERVAL = 60 # Check every x seconds
 ```
 ## How to Run?
-1. Create rapid API account ![here](https://rapidapi.com/).
+1. Create rapid API account [here](https://rapidapi.com/).
 2. Generate API key.
-3. Fill the configuration in ![config.py](config.py).
+3. Fill the configuration in [config.py](config.py).
 4. Install requirements for script.
 5. Create Windows Service for the script/Run the script background or foreground.
