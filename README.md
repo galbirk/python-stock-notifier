@@ -11,7 +11,8 @@ Python Script that push windows 10 notifications on selected stock price.
   * [Install requirements for the script](#Install-requirements-for-the-script)
   * [Create Windows Service or Run the script background or foreground](#Create-Windows-Service-or-Run-the-script-background-or-foreground)
     - [Create Windows Service](#Create-Windows-Service)
-    - gal 
+    - [Run the Script in the Background](#Run-the-Script-in-the-Background) 
+    - [Run the script in the Foreground](#Run-the-script-in-the-Foreground)
 - [License](#License)
 - [Author Information](#Author-Information)
 ## Configuration
@@ -57,6 +58,18 @@ pip install -r requirements.txt
 ```
 ### Create Windows Service or Run the script background or foreground
 #### Create Windows Service
+You can Compile the script with py2exe or other module, and run the exe file as windows service.
+#### Run the Script in the Background
+Run the script with pythonw.exe with the command below:<br>
+```bash
+pythonw.exe getstock.py
+```
+To stop the script, stop his process in task manager.
+#### Run the script in the Foreground
+You can simply run the script as regular python script with the command below:<br>
+```bash
+python.exe getstock.py
+```
 ## License
 BSD
 
