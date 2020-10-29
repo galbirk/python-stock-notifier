@@ -1,5 +1,5 @@
 import os
-API_KEY = 'eb185261abmshce945baa82d97a1p16fe8cjsn9e7fe2f909d2'
+API_KEY = ''
 LOG_PATH = r"{}\DEBUG.log".format(os.path.dirname(os.path.realpath(__file__)))
 STOCK_SYMBOL = "FVRR"
 STOCK_REGION = "US"
