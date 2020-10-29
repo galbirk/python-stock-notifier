@@ -6,6 +6,7 @@ from win10toast import ToastNotifier
 import time
 import logging
 import config
+import os
 
 logging.basicConfig(
     level=logging.INFO,
@@ -20,7 +21,7 @@ def get_price():
 
     headers = {
         'x-rapidapi-host': "apidojo-yahoo-finance-v1.p.rapidapi.com",
-        'x-rapidapi-key': config.API_KEY
+        'x-rapidapi-key': os.getenv('API_KEY')
         }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
