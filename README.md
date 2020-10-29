@@ -45,13 +45,13 @@ CHECK_INTERVAL = 60 # Check every x seconds
 ### Fill Configuration file
 Enter the API key and all the other variables to [config.py](config.py).
 ### Clone git repo
-Clone the repository:<br><br>
+Clone the repository:<br>
 ```bash
 git clone https://github.com/galbirk/python-stock-notifier.git
 cd python-stock-notifier
 ```
 ### Install requirements for the script
-Run the command below:<br><br>
+Run the command below:<br>
 ```bash
 pip install -r requirements.txt
 ```
