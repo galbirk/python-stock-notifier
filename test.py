@@ -34,4 +34,3 @@ def notify(price):
     toaster.show_toast("{} Stock Price Changed!".format(config.STOCK_SYMBOL),"THE PRICE IS {}".format(price),icon_path=config.ICON_PATH,duration=15)
 
 price = get_price()
-notify(price) 
