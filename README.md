@@ -42,7 +42,7 @@ CHECK_INTERVAL = 60 # Check every x seconds
 ### Create rapid API Acount and Get API key
 1. Go to [https://rapidapi.com/](https://rapidapi.com/).
 2. Register and create Account.
-3. Go to [yahoo finance API](https://rapidapi.com/apidojo/api/yahoo-finance1)
+3. Go to [yahoo finance API](https://rapidapi.com/apidojo/api/yahoo-finance1).
 4. Get your API key in the "X-RapidAPI-Key" field.<br><br>![API key](images/rapid_api_key.png)
 ### Fill Configuration file
 Enter the API key and all the other variables to [config.py](config.py).
