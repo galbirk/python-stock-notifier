@@ -1,5 +1,5 @@
 # python-stock-notifier
-![python-version](https://img.shields.io/badge/python-v3.9-blue) [![Build Status](https://travis-ci.com/galbirk/python-stock-notifier.svg?branch=main)](https://travis-ci.com/galbirk/python-stock-notifier)<br>
+![python-version](https://img.shields.io/badge/python-%20%3E%3D3.6-blue) [![Build Status](https://travis-ci.com/galbirk/python-stock-notifier.svg?branch=main)](https://travis-ci.com/galbirk/python-stock-notifier)<br>
 ## ![bull](images/bull.ico)
 Python Script that push windows 10 notifications on selected stock price.
 ## Table of Contents
