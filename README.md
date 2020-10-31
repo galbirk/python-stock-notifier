@@ -17,7 +17,7 @@ Python Script that push windows 10 notifications on selected stock price.
 - [License](#License)
 - [Author Information](#Author-Information)
 ## Configuration
-The script loads confoguration from [config.py](config.py) file.
+The script loads configuration from [config.py](config.py) file.
 ### Config Variables
 * **API_KEY** --> The api key for rapidAPI yahoo finance.
 * **LOG_PATH** --> Log file path.
