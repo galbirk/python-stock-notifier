@@ -26,7 +26,7 @@ The script loads configuration from [config.py](config.py) file.
 * **ICON_PATH** --> Path to Icon. 
 * **CHECK_INTERVAL** --> Interval For Checking stock price in seconds.
 ```bash
-API_KEY = ''
+API_KEY = 'myapikey'
 LOG_PATH = r"{}\DEBUG.log".format(os.path.dirname(os.path.realpath(__file__)))
 STOCK_SYMBOL = "FVRR"
 STOCK_REGION = "US"
