@@ -5,7 +5,7 @@ Python Script that push windows 10 notifications on selected stock price.
 ## Table of Contents
 - [Configuration](#Configuration)
   * [Config Variables](#Config-Variables)
-- [How to Run?](#How-to-Run?)
+- [How to Run?](#How-to-Run-?)
   * [Create rapid API Acount and Get API key](#Create-rapid-API-Acount-and-Get-API-key)
   * [Fill Configuration file](#Fill-Configuration-file)
   * [Clone git repo](#Clone-git-repo)
